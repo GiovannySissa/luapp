@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lumu-test.iml" filepath="$PROJECT_DIR$/.idea/modules/lumu-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lumu-test.lumu-consumer.iml" filepath="$PROJECT_DIR$/.idea/modules/lumu-test.lumu-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lumu-test.lumu-core.iml" filepath="$PROJECT_DIR$/.idea/modules/lumu-test.lumu-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lumu-test.lumu-http.iml" filepath="$PROJECT_DIR$/.idea/modules/lumu-test.lumu-http.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lumu-test.lumu-test-build.iml" filepath="$PROJECT_DIR$/.idea/modules/lumu-test.lumu-test-build.iml" />
+    </modules>
+  </component>
+</project>

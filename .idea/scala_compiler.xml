@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <profile name="sbt 1" modules="lumu-test_8796" />
+    <profile name="sbt 2" modules="lumu-test">
+      <option name="implicitConversions" value="true" />
+      <option name="higherKinds" value="true" />
+      <option name="existentials" value="true" />
+      <option name="macros" value="true" />
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-encoding" />
+        <parameter value="utf8" />
+        <parameter value="-Xlint:adapted-args" />
+        <parameter value="-Xlint:by-name-right-associative" />
+        <parameter value="-Xlint:constant" />
+        <parameter value="-Xlint:delayedinit-select" />
+        <parameter value="-Xlint:deprecation" />
+        <parameter value="-Xlint:doc-detached" />
+        <parameter value="-Xlint:inaccessible" />
+        <parameter value="-Xlint:infer-any" />
+        <parameter value="-Xlint:missing-interpolator" />
+        <parameter value="-Xlint:nullary-override" />
+        <parameter value="-Xlint:nullary-unit" />
+        <parameter value="-Xlint:option-implicit" />
+        <parameter value="-Xlint:package-object-classes" />
+        <parameter value="-Xlint:poly-implicit-overload" />
+        <parameter value="-Xlint:private-shadow" />
+        <parameter value="-Xlint:stars-align" />
+        <parameter value="-Xlint:type-parameter-shadow" />
+        <parameter value="-Xlint:unsound-match" />
+        <parameter value="-Yno-adapted-args" />
+        <parameter value="-Ypartial-unification" />
+        <parameter value="-Ywarn-dead-code" />
+        <parameter value="-Ywarn-extra-implicit" />
+        <parameter value="-Ywarn-nullary-override" />
+        <parameter value="-Ywarn-nullary-unit" />
+        <parameter value="-Ywarn-numeric-widen" />
+        <parameter value="-Ywarn-value-discard" />
+        <parameter value="-Ywarn-unused:implicits" />
+        <parameter value="-Ywarn-unused:imports" />
+        <parameter value="-Ywarn-unused:locals" />
+        <parameter value="-Ywarn-unused:params" />
+        <parameter value="-Ywarn-unused:patvars" />
+        <parameter value="-Ywarn-unused:privates" />
+        <parameter value="-Ywarn-unused:nowarn" />
+        <parameter value="-Xfatal-warnings" />
+      </parameters>
+      <plugins>
+        <plugin path="$PROJECT_DIR$/target/scala-2.12/compiler_plugins/wartremover_2.12.19-3.2.1.jar" />
+      </plugins>
+    </profile>
+    <profile name="sbt 3" modules="lumu-test.lumu-test-core,lumu-test.lumu-test-http">
+      <option name="implicitConversions" value="true" />
+      <option name="higherKinds" value="true" />
+      <option name="existentials" value="true" />
+      <option name="macros" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <option name="explainTypeErrors" value="true" />
+      <parameters>
+        <parameter value="-encoding" />
+        <parameter value="utf8" />
+        <parameter value="-Xcheckinit" />
+        <parameter value="-Xfatal-warnings" />
+        <parameter value="-Xlint:adapted-args" />
+        <parameter value="-Xlint:constant" />
+        <parameter value="-Xlint:delayedinit-select" />
+        <parameter value="-Xlint:deprecation" />
+        <parameter value="-Xlint:doc-detached" />
+        <parameter value="-Xlint:inaccessible" />
+        <parameter value="-Xlint:infer-any" />
+        <parameter value="-Xlint:missing-interpolator" />
+        <parameter value="-Xlint:nullary-override" />
+        <parameter value="-Xlint:nullary-unit" />
+        <parameter value="-Xlint:option-implicit" />
+        <parameter value="-Xlint:package-object-classes" />
+        <parameter value="-Xlint:poly-implicit-overload" />
+        <parameter value="-Xlint:private-shadow" />
+        <parameter value="-Xlint:stars-align" />
+        <parameter value="-Xlint:type-parameter-shadow" />
+        <parameter value="-Wdead-code" />
+        <parameter value="-Wextra-implicit" />
+        <parameter value="-Wnumeric-widen" />
+        <parameter value="-Wunused:implicits" />
+        <parameter value="-Wunused:imports" />
+        <parameter value="-Wunused:locals" />
+        <parameter value="-Wunused:params" />
+        <parameter value="-Wunused:patvars" />
+        <parameter value="-Wunused:privates" />
+        <parameter value="-Wvalue-discard" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.AnyVal" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.AsInstanceOf" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.AutoUnboxing" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.CaseClassPrivateApply" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.CollectHeadOption" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.DropTakeToSlice" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.EitherProjectionPartial" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.Enumeration" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.Equals" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.ExplicitImplicitTypes" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.FilterEmpty" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.FilterHeadOption" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.FilterSize" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.FinalCaseClass" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.FinalVal" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.ForeachEntry" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.GetGetOrElse" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.GetOrElseNull" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.GlobalExecutionContext" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.ImplicitParameter" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.IsInstanceOf" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.IterableOps" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.JavaConversions" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.JavaNetURLConstructors" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.JavaSerializable" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.LeakingSealed" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.ListAppend" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.ListUnapply" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.ListUnapplySeq" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.MapUnit" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.MutableDataStructures" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.NoNeedImport" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.Null" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.Option2Iterable" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.OptionPartial" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.PlatformDefault" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.PublicInference" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.Recursion" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.RedundantAsInstanceOf" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.RedundantConversions" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.RedundantIsInstanceOf" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.Return" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.ReverseFind" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.ReverseIterator" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.ReverseTakeReverse" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.ScalaApp" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.SeqApply" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.SeqUpdated" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.SizeIs" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.SizeToLength" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.SortFilter" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.SortedMaxMin" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.SortedMaxMinOption" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.StringPlusAny" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.ThreadSleep" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.Throw" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.ToString" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.TripleQuestionMark" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.TryPartial" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.Var" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.While" />
+      </parameters>
+      <plugins>
+        <plugin path="$PROJECT_DIR$/target/scala-2.12/compiler_plugins/wartremover_2.13.14-3.2.1.jar" />
+        <plugin path="$PROJECT_DIR$/target/scala-2.12/compiler_plugins/kind-projector_2.13-0.10.3.jar" />
+        <plugin path="$PROJECT_DIR$/target/scala-2.12/compiler_plugins/better-monadic-for_2.13-0.3.1.jar" />
+      </plugins>
+    </profile>
+    <profile name="sbt 4" modules="lumu-test.lumu-consumer,lumu-test.lumu-core,lumu-test.lumu-http">
+      <option name="implicitConversions" value="true" />
+      <option name="higherKinds" value="true" />
+      <option name="existentials" value="true" />
+      <option name="macros" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-encoding" />
+        <parameter value="utf8" />
+        <parameter value="-Xlint:adapted-args" />
+        <parameter value="-Xlint:constant" />
+        <parameter value="-Xlint:delayedinit-select" />
+        <parameter value="-Xlint:deprecation" />
+        <parameter value="-Xlint:doc-detached" />
+        <parameter value="-Xlint:implicit-recursion" />
+        <parameter value="-Xlint:implicit-not-found" />
+        <parameter value="-Xlint:inaccessible" />
+        <parameter value="-Xlint:infer-any" />
+        <parameter value="-Xlint:missing-interpolator" />
+        <parameter value="-Xlint:nullary-unit" />
+        <parameter value="-Xlint:option-implicit" />
+        <parameter value="-Xlint:package-object-classes" />
+        <parameter value="-Xlint:poly-implicit-overload" />
+        <parameter value="-Xlint:private-shadow" />
+        <parameter value="-Xlint:stars-align" />
+        <parameter value="-Xlint:strict-unsealed-patmat" />
+        <parameter value="-Xlint:type-parameter-shadow" />
+        <parameter value="-Xlint:-byname-implicit" />
+        <parameter value="-Wdead-code" />
+        <parameter value="-Wextra-implicit" />
+        <parameter value="-Wnumeric-widen" />
+        <parameter value="-Wvalue-discard" />
+        <parameter value="-Wnonunit-statement" />
+        <parameter value="-Wunused:nowarn" />
+        <parameter value="-Wunused:implicits" />
+        <parameter value="-Wunused:explicits" />
+        <parameter value="-Wunused:imports" />
+        <parameter value="-Wunused:locals" />
+        <parameter value="-Wunused:params" />
+        <parameter value="-Wunused:patvars" />
+        <parameter value="-Wunused:privates" />
+        <parameter value="-Xfatal-warnings" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.AnyVal" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.AsInstanceOf" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.AutoUnboxing" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.CaseClassPrivateApply" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.CollectHeadOption" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.DropTakeToSlice" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.EitherProjectionPartial" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.Enumeration" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.Equals" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.ExplicitImplicitTypes" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.FilterEmpty" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.FilterHeadOption" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.FilterSize" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.FinalCaseClass" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.FinalVal" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.ForeachEntry" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.GetGetOrElse" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.GetOrElseNull" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.GlobalExecutionContext" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.ImplicitParameter" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.IsInstanceOf" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.IterableOps" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.JavaConversions" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.JavaNetURLConstructors" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.JavaSerializable" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.LeakingSealed" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.ListAppend" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.ListUnapply" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.ListUnapplySeq" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.MapUnit" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.MutableDataStructures" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.NoNeedImport" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.Null" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.Option2Iterable" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.OptionPartial" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.PlatformDefault" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.PublicInference" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.Recursion" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.RedundantAsInstanceOf" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.RedundantConversions" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.RedundantIsInstanceOf" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.Return" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.ReverseFind" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.ReverseIterator" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.ReverseTakeReverse" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.ScalaApp" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.SeqApply" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.SeqUpdated" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.SizeIs" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.SizeToLength" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.SortFilter" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.SortedMaxMin" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.SortedMaxMinOption" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.StringPlusAny" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.ThreadSleep" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.Throw" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.ToString" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.TripleQuestionMark" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.TryPartial" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.Var" />
+        <parameter value="-P:wartremover:traverser:org.wartremover.warts.While" />
+      </parameters>
+      <plugins>
+        <plugin path="$PROJECT_DIR$/target/scala-2.12/compiler_plugins/wartremover_2.13.14-3.2.1.jar" />
+        <plugin path="$PROJECT_DIR$/target/scala-2.12/compiler_plugins/kind-projector_2.13-0.10.3.jar" />
+        <plugin path="$PROJECT_DIR$/target/scala-2.12/compiler_plugins/better-monadic-for_2.13-0.3.1.jar" />
+      </plugins>
+    </profile>
+  </component>
+</project>
